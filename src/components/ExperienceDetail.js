@@ -9,7 +9,7 @@ const ExperienceDetail = () => {
 
     const handleMoreInfoClicked = (idx) => {
         console.log(expButton)
-        setExpButton(expButton.map((state, expIdx) => idx == expIdx ? !state : state));
+        setExpButton(expButton.map((state, expIdx) => idx === expIdx ? !state : state));
     }
 
     const imageStyle = (isOpen) => {
