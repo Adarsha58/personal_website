@@ -1,0 +1,232 @@
+.experience-container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.experience-box {
+    padding: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+   
+}
+
+.experience-title {
+    white-space: nowrap;
+    display: inline-block;
+    overflow: hidden;
+    animation: marquee 10s linear infinite;
+    border-bottom: 3px solid var(--black22);
+}
+
+.experience-title span {
+    display: inline-block;
+}
+
+.experience-summary {
+    border-bottom: 3px solid var(--black22);
+    width: 100%;
+}
+
+
+.bold,
+.outlined {
+    font-family: 'MonumentExtended', sans-serif;
+    font-size: 8vw;
+    font-weight: bolder;
+    line-height: 8vw;
+    white-space: nowrap;
+    margin-right: 4vw;
+    color: var(--black22);
+
+}
+
+@keyframes marquee {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-50%, 0, 0);
+    }
+  }
+
+.bold {
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.outlined {
+    -webkit-text-stroke: 2px var(--black22);
+    -webkit-text-fill-color: transparent;
+    font-weight: lighter;
+}
+
+
+.experience-bio-paragraph {
+    max-width: 840px;
+   
+    grid-row-gap: 24px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--black22)black black;
+    box-shadow: 7px 7px 0 0 var(--black22);
+    border-radius: 32px;
+    flex-direction: column;
+    margin-left: -2px;
+    padding: 64px;
+    display: flex;
+    overflow: hidden;
+}
+
+
+.person-gif {
+    height: 100%;
+    width: 100%;
+}
+
+
+.experience-summary .col-sm-9 {
+    display: flex;
+    padding: 5vh;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.balloon-tip {
+    position: relative;
+    align-self: center;
+    max-width: 50px;
+}
+
+.experience-bio-paragraph {
+    flex-grow: 1;
+;}
+
+.text-block-23 {
+    font-family: Roobert, sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.text-block-23-copy {
+    font-family: Roobert,sans-serif;
+    font-size: 19px;
+    line-height: 21px;
+    text-align: left;
+}
+
+.experience-summary .row {
+    align-items: center;
+    padding: 1.25%;
+}
+
+.experiences-container {
+    width: 90%;
+    padding-bottom: 10px;
+    text-align: left;
+   
+}
+
+.experiences-container .row {
+    padding: 1%;
+}
+
+.bio-col {
+    display: flex;
+}
+
+.experiences-container > * {
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--black22)black black;
+    border-bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.experiences-container > :last-child {
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--black22)black black;
+}
+
+.exp {
+    font-family: 'MonumentExtended', sans-serif;
+    color: var(--black22);
+}
+
+.exp-date {
+    width: 260px;
+    color: var(--black22);
+    margin-top: 4px;
+    font-family: Monumentextended,sans-serif;
+    font-size: 37px;
+    line-height: 46px;
+}
+
+.exp-name {
+    width: 180px;
+    color: var(--black22);
+    font-family: Roobert,sans-serif;
+    font-size: 30px;
+    line-height: 28px;
+}
+
+.exp-position {
+    width: 240px;
+    color: var(--black22);
+    font-family: Roobert,sans-serif;
+    font-size: 25px;
+    line-height: 22px;
+}
+
+.exp-location {
+    width: 240px;
+    color: var(--black22);
+    font-family: Roobert,sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.exp-points-container {
+    background-color: var(--gold22);
+    overflow: hidden;
+    animation: appearAnimation 0.25s ease-out;
+    text-align: left;
+    padding: 1% !important;
+    row-gap: 17px;
+}
+
+.exp-point {
+    color: var(--black22);
+    font-family: Roobert,sans-serif;
+    font-size: 25px;
+    line-height: 40px;
+    display: flex;
+   
+}
+
+.exp-points span {
+    display: flex;
+    align-items: center;
+    grid-column-gap: 16px;
+    margin-bottom: 8px; /* Adjust the margin between bullet points */
+    color: var(--black22);
+    font-family: Roobert,sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+@keyframes appearAnimation {
+    from {
+        transform: scaleY(0%);
+    }
+    to {
+       transform: scaleY(100%);  /* Set it to a large value or a percentage */
+
+    }
+}
+

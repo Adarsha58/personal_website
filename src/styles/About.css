@@ -1,0 +1,174 @@
+.about-container {
+    width: 100%;
+    border-bottom: 3px solid var(--black22);
+    background-color: var(--purple22);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box; 
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+
+
+.personal-info {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.about-container span {
+    color: var(--black22);
+    padding-left: 16px;
+    font-family: Monumentextended,sans-serif;
+    text-align: left;
+    align-items: center;
+    
+}
+
+
+
+.ciao {
+    display: flex;
+    align-items: center;
+    -webkit-text-stroke: 2px #0d0d0d;
+    -webkit-text-fill-color: transparent;
+    align-self: flex-start;
+    font-size: 16vw ;
+
+}
+
+.ciao-letter {
+    animation:  1s infinite alternate;
+    color: var(--black22); /* Set the fill color */
+   
+}
+
+
+.ciao-letter[data-letter='C'] {
+    animation-name: bounce, shake;
+        
+}
+
+.ciao-letter[data-letter='I'] {
+    animation-name: scale;
+}
+
+.ciao-letter[data-letter='A'] {
+    animation-name: fadeInOut;
+
+}
+
+.ciao-letter[data-letter='O'] {
+    animation-name: bounce;
+
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+
+
+.personal-info {
+    font-size: 6vw;
+    line-height: 1;
+}
+
+.about-me {
+    font-size: 3vw;;
+    line-height: 2;
+    font-family: Roobert,sans-serif !important;
+
+}
+
+@keyframes scale {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25%, 75% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+}
+
+
+
+
+
+
+
+.my-pic {
+    width: 27%; /* Ensure the image fills the container */
+    height: auto;
+    max-height: 100%; /* Ensure the image does not exceed the container height */
+    border-radius: 15px; /* Add a bit more border-radius for a rounded look */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border: 2px solid #ffffffa6; /* Add a thin white border for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+    transition: transform 0.5s ease-in-out; /* Add a smooth transition on hover */
+}
+
+.my-pic:hover {
+    transform: scale(1.1); /* Enlarge the image slightly on hover */
+}
+
+
+@media (max-width: 1200px) {
+    .my-pic{
+      display: none;
+    }
+
+    .ciao {
+        font-size: 24vw;
+    }
+
+    .personal-info {
+        font-size: 10vw;
+        margin-top: 6vh;
+    }
+
+    .about-me {
+        font-size: 5vw;
+        margin-top: 3vw;
+    }
+
+    .left {
+        width: 100%;
+    }
+  }
+
