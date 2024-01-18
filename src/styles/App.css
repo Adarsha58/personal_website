@@ -48,14 +48,14 @@ body {
 
 @font-face {
   font-family: 'MonumentExtended';
-  src: url('/Users/adarshapoudel/Library/Fonts/PPMonumentExtended-Black.otf') format('opentype');
+  src: url('../fonts/PPMonumentExtended-Black.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Roobert';
-  src: url('/Users/adarshapoudel/Library/Fonts/Roobert.ttf') format('truetype');
+  src: url('../fonts/Roobert.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
