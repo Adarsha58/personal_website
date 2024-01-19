@@ -1,5 +1,4 @@
 import SAR from '../images/SAR.png';
-import FTG_MOV from '../images/ftg_movie.mov';
 import FTG from '../images/FTG.png';
 import SAR_V2 from '../images/SAR_V2.png';
 import FTG_ALGO from '../images/FTG_AlGO.png';
