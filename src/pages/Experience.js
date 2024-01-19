@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Experience.css'; // Import your CSS file
-import PersonTalking from '../images/person_talking.gif';
+import IMAGES from '../images/images';
 import ExperienceDetail from '../components/ExperienceDetail';
 // Todo: fix the size of the box of the paragraph
 // Todo: fix the widht of the container 
@@ -24,7 +24,7 @@ const Experience = () => {
                 <div className="container-fluid experience-summary">
                     <div className="row">
                         <div className="col-sm-4 person-col">
-                            <img className="person-gif" src={PersonTalking} />
+                            <img className="person-gif" src={IMAGES['person-talking']} alt='person talking gif'/>
                         </div>
             
                         <div className="col-sm-8 bio-col">

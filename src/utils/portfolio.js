@@ -8,8 +8,7 @@ import SAP_2 from '../images/nlp-2.png';
 import SAP_3 from '../images/nlp-3.png';
 import SAP_4 from '../images/nlp-4.png';
 import ROB_1 from '../images/rob-1.png';
-import ROB_2 from '../images/rob-2.gif';
-import ROB_3 from '../images/rob-3.gif';
+import IMAGES  from '../images/images';
 
 
 export const PORTFOLIO = [
@@ -103,12 +102,12 @@ export const PORTFOLIO = [
         media: [
             {
                 type: 'image',
-                src: ROB_2, 
+                src: IMAGES['rob-2'], 
                 width: 6,
             }, 
             {
                 type: 'image',
-                src: ROB_3, 
+                src: IMAGES['rob-3'], 
                 width: 6,
             }, 
             {

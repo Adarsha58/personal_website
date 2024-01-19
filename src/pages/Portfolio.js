@@ -69,11 +69,11 @@ const Portfolio = () => {
                                                 <h1>{project.title}</h1>
                                                 <div className='links'>
                                                     {project.linkToPPT && (
-                                                        <img className='ppt-icon heartbeat' src={PRESENT_ICON} onClick={() => window.open(project.linkToPPT, '_blank')} />
+                                                        <img alt='ppt-icon'className='ppt-icon heartbeat' src={PRESENT_ICON} onClick={() => window.open(project.linkToPPT, '_blank')} />
                                                     )}
 
                                                     {project.linkToPDF && (
-                                                        <img className='pdf-icon heartbeat' src={PDF_ICON} onClick={() => window.open(project.linkToPDF, '_blank')} />
+                                                        <img alt='pdf-icon' className='pdf-icon heartbeat' src={PDF_ICON} onClick={() => window.open(project.linkToPDF, '_blank')} />
                                                     )}
 
 
@@ -115,7 +115,7 @@ const Portfolio = () => {
                                                 {project.media.map((item, mediaIndex) => (
                                                     <React.Fragment key={mediaIndex}>
                                                         <div className={`media col-sm-${item.width}`}>
-                                                            {item.type === 'image' && <img src={item.src} alt={project.title} />}
+                                                            {item.type === 'image' && <img src={item.src} alt={project.title} loading='lazy' />}
                                                             {item.type === 'video' && (
                                                                 <iframe
                                                                     src={item.src}
