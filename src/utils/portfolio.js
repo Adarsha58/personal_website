@@ -29,7 +29,7 @@ export const PORTFOLIO = [
             }, 
             {
                 type: 'video',
-                src: FTG_MOV, 
+                src: "https://drive.google.com/file/d/1tm-QuS8cvZ7NJH1ewNAJKN6g7h2FfW8j/preview", 
                 width: 6,
             }, 
             {

@@ -117,10 +117,11 @@ const Portfolio = () => {
                                                         <div className={`media col-sm-${item.width}`}>
                                                             {item.type === 'image' && <img src={item.src} alt={project.title} />}
                                                             {item.type === 'video' && (
-                                                                <video controls>
-                                                                    <source src={item.src} type='video/mp4' />
-                                                                    Your browser does not support the video tag.
-                                                                </video>
+                                                                <iframe
+                                                                    src={item.src}
+                                                                    allow="autoplay"
+                                                                    
+                                                                ></iframe>
                                                             )}
                                                         </div>
                                                     </React.Fragment>
