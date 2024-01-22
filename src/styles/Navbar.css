@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    border: 3px var(--black22) solid;
+    border: 2px var(--black22) solid;
     height: 9vh;
 
 }
@@ -32,7 +32,7 @@
 
 .navitem {
     font-family: Robert, sans-serif;
-    font-size: 30px !important;
+    font-size: 26px !important;
     margin-right: 4vw !important;
    
 }
@@ -45,7 +45,7 @@
 
 
 .navbar-logo {
-    font-size: 2.5em;
+    font-size: 2.25em;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
     margin-right: 3vw;

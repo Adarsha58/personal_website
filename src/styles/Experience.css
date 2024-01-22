@@ -17,7 +17,7 @@
     display: inline-block;
     overflow: hidden;
     animation: marquee 10s linear infinite;
-    border-bottom: 3px solid var(--black22);
+    border-bottom: 2px solid var(--black22);
 }
 
 .experience-title span {
@@ -25,7 +25,7 @@
 }
 
 .experience-summary {
-    border-bottom: 3px solid var(--black22);
+    border-bottom: 2px solid var(--black22);
     width: 100%;
 }
 
@@ -67,7 +67,7 @@
    
     grid-row-gap: 24px;
     border-style: solid;
-    border-width: 3px;
+    border-width: 2px;
     border-color: var(--black22)black black;
     box-shadow: 7px 7px 0 0 var(--black22);
     border-radius: 32px;
@@ -140,7 +140,7 @@
 
 .experiences-container > * {
     border-style: solid;
-    border-width: 3px;
+    border-width: 2px;
     border-color: var(--black22)black black;
     border-bottom: 0px;
     display: flex;
@@ -149,7 +149,7 @@
 
 .experiences-container > :last-child {
     border-style: solid;
-    border-width: 3px;
+    border-width: 2px;
     border-color: var(--black22)black black;
 }
 
@@ -163,7 +163,7 @@
     color: var(--black22);
     margin-top: 4px;
     font-family: Monumentextended,sans-serif;
-    font-size: 37px;
+    font-size: 28px;
     line-height: 46px;
 }
 
@@ -171,7 +171,7 @@
     width: 180px;
     color: var(--black22);
     font-family: Roobert,sans-serif;
-    font-size: 30px;
+    font-size: 21px;
     line-height: 28px;
 }
 
@@ -179,7 +179,7 @@
     width: 240px;
     color: var(--black22);
     font-family: Roobert,sans-serif;
-    font-size: 25px;
+    font-size: 18px;
     line-height: 22px;
 }
 
@@ -187,7 +187,7 @@
     width: 240px;
     color: var(--black22);
     font-family: Roobert,sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 22px;
 }
 
@@ -203,7 +203,7 @@
 .exp-point {
     color: var(--black22);
     font-family: Roobert,sans-serif;
-    font-size: 25px;
+    font-size: 22px;
     line-height: 40px;
     display: flex;
    

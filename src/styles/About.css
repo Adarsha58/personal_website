@@ -1,6 +1,6 @@
 .about-container {
     width: 100%;
-    border-bottom: 3px solid var(--black22);
+    border-bottom: 2px solid var(--black22);
     background-color: var(--purple22);
     position: relative;
     display: flex;
